@@ -1,0 +1,223 @@
+body{
+	font-family: sans-serif;
+	background: #e3e3e3;
+	/* color #00CCFF; #009999*/
+}
+.header{
+	background: linear-gradient(#e3e3e3, white);
+	color: rgb(80, 80, 80);
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	height: 100px;
+}
+h1{
+	padding-top: 25px;
+	letter-spacing: 5px;
+	font-weight: bold;
+	font-size: 45px;
+}
+.wrap{
+	background: white;
+	width: 75%;
+	margin: auto;
+	min-height: 500px;
+	overflow: hidden;
+}
+.pradzia{
+	width: 45%;
+	height: 300px;
+	margin: auto;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #e3e3e3;
+	position: relative;
+	top: 20px;
+}
+.virsus{
+	height: 50px;
+	background: rgb(80, 80, 80);
+	color: #7FFF00;
+	text-align: center;
+}
+.apacia{
+	min-height: 250px;
+	text-align: center;
+	background: rgb(240,246,250);
+}
+h2{
+	margin: 0px;
+	position: relative;
+	top: 10px;
+}
+p{
+	margin: 0px;
+}
+#create{
+	display: none;
+}
+.footer{
+	background: #7FFF00;
+	width: 75%;
+	margin: auto;
+	height: 50px;
+	position: relative;
+}
+.postFooter{
+	background: rgb(80, 80, 80);
+	position: relative;
+	top: 10px;
+	color: #7FFF00;
+	width: 100%;
+	height: 40px;
+}
+#user{
+	width: 100px;
+	height: 70px;
+	float: right;
+	padding: 20px;
+	text-align: center;
+}
+#user a{
+	background: #e3e3e3;
+	border-radius: 3px 3px 3px 3px;
+	padding: 5px;
+	text-decoration: none;
+	color: rgb(80, 80, 80);
+	font-size: 18px;
+}
+#user a:hover{
+	color: #7FFF00;
+	text-decoration: underline;
+	background: rgb(80, 80, 80);
+}
+ul{
+	margin: 0px;
+	position: relative;
+	top: 20px;
+}
+.elementas{
+	border-radius: 5px 5px 5px 5px;
+	background: rgb(130,130,130);
+	color: white;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	list-style: none;
+	padding: 4px;
+	padding-left: 25px;
+	text-align: left;
+}
+.close{
+	height: 18px;
+	width: 15px;
+	/*position: relative;
+	right: 4px;
+	top: 4px;*/
+	float: right;
+}
+#footP{
+	padding: 10px;
+
+}
+.message{
+	float: bottom;
+	color: rgb(80, 80, 80);
+}
+
+
+
+
+
+.skirsniai{
+	float: left;
+}
+.skirsniai ul{
+	padding: 0px;
+}
+.skirsnis{
+	display: block;
+	font-weight: bold;
+	border-radius: 0px 33px 33px 0px;
+	color: white;
+	background: rgb(80,80,80);
+	list-style: none;
+	height: 66px;
+	width: 160px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.skirsnis:hover{
+	text-decoration: underline;
+	color: #7FFF00;
+}
+.skirsnis img{
+	border-radius: 30px;
+	float: right;
+	padding-top: 3px;
+	padding-right: 3px;
+}
+.skirsnis p{
+	display: inline;
+}
+.active{
+	background: #7FFF00;
+	color: rgb(80,80,80);
+}
+.active:hover{
+	background: #7FFF00;
+	color: rgb(80,80,80);
+	text-decoration: none;
+}
+
+
+
+
+.container{
+	width: 55%;
+	min-height: 300px;
+	margin: auto;
+	border-style: solid;
+	border-color: #e3e3e3;
+	border-width: 2px;
+	position: relative;
+	top: 20px;
+	margin-bottom: 200px;
+	display: none;
+}
+.bottom{
+	width: 100%;
+	height: 40px;
+	margin: auto;
+	border-color: #e3e3e3;
+	border-top: 2px;
+	font-size: 20px;
+	text-align: center;
+}
+.elementas img{
+	cursor: pointer;
+}
+.sarasas{
+	padding-bottom: 30px;
+	padding-left: 0px;
+	margin: auto;
+}
+.on{
+	display: block;
+}
+.bottom p{
+	text-align: center;
+	padding-top: 12px;
+}
+.logo{
+	text-align: center;
+}
+.logo img{
+	height: 80px;
+	width: auto;
+}
+.icon{
+	display: none;
+}

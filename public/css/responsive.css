@@ -1,0 +1,157 @@
+.header{
+	width: 95%;
+}
+h1{
+	padding-top: 25px;
+	letter-spacing: 5px;
+}
+.wrap{
+	width: 95%;
+}
+.footer{
+	width: 95%;
+}
+#user{
+	width: 10%;
+}
+.sarasas{
+	padding-right: 0px;
+	padding-right: 0px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+.skirsniai{
+	float: left;
+	width: 19%;
+}
+.skirsnis{
+	width: 100%;
+}
+.container{
+	width: 55%;
+}
+.bottom{
+	width: 100%;
+	
+}
+.bottom p{
+	padding-top: 12px;
+	width: 80%;
+	margin: auto;
+}
+
+@media screen and (max-width: 850px){
+
+	.header{
+		width: 100%;
+	}
+	h1{
+		padding-top: 15px;
+		letter-spacing: 3px;
+	}
+	.wrap{
+		width: 100%;
+	}
+	.footer{
+		width: 100%;
+	}
+	#user{
+		width: 10%;
+		position: relative;
+		top: -70px;
+		right: 10px;
+	}
+	.skirsniai{
+		float: left;
+		width: 26%;
+	}
+	.skirsnis{
+		width: 100%;
+	}
+	.container{
+		top: -20px;
+		width: 70%;
+		margin-right: 3px;
+	}
+	.bottom{
+		width: 100%;
+		
+	}
+	.bottom p{
+		padding-top: 12px;
+		width: 100%;
+		margin: auto;
+	}
+	.pradzia{
+	width: 52%;
+	}
+	.icon{
+		display: block;
+		position: relative;
+		height: 50px;
+		width: auto;
+		top: -30px;
+		margin-right: 10px;
+		margin-left: auto;
+		cursor: pointer;
+	}	
+	#user{
+		z-index: 8;
+		background: white;
+		width: 80px;
+		border: solid 2px #e3e3e3;
+		top: -30px;
+	}
+	.usr{
+		display: none;
+	}
+	.userPap{
+		display: block;
+	}
+}
+@media screen and (max-width: 620px){
+
+	.elementas{
+		width: 95%;
+		padding-left: 0px;
+	}
+	.container{
+		z-index: 5;
+		top: -20px;
+		width: 80%;
+		margin-right: 3px;
+	}
+	.sarasas{
+	padding-right: 0px;
+	padding-right: 0px;
+	margin: auto;
+	padding-bottom: 30px;
+	}
+	.bottom p{
+		font-size: 80%;
+	}
+	.text_box{
+		width: 35%;
+	}
+
+	.skirsniai{
+		z-index: 6;
+		float: none;
+		position: fixed;
+		top: 200px;
+	}
+	.skirsnis{
+		width: 66px;
+		overflow: hidden;/*
+		position: relative;
+		left: -100*/
+	}
+	.skirsnisToggle{
+		width: 145px;
+	}
+}
+@media screen and (max-width: 520px){
+	.pradzia{
+		width: 75%;
+	}
+}
